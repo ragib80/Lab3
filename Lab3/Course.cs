@@ -21,8 +21,8 @@ namespace Lab3
         public void ShowInfo()
         {
             Console.WriteLine("Course name is : " + courseName);
-            Console.WriteLine("your id is : " + courseCode);
-            Console.WriteLine("your  cradit is : " + courseCradit);
+            Console.WriteLine("Course id is : " + courseCode);
+            Console.WriteLine("Course  cradit is : " + courseCradit);
            
         }
     }
