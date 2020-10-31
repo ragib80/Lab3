@@ -18,9 +18,17 @@ namespace Lab3
 
             Account a1 = new Account("Mr. shahriar ", "5506", 50000);
             a1.showInfo();
+            Console.WriteLine("");
             a1.Deposit(5000);
             a1.Withdraw(7000);
 
+            Console.WriteLine("");
+            Traingle t1 = new Traingle(10, 10, 10);
+            Traingle t2 = new Traingle(10, 5, 10);
+            t1.ShowInfo();
+            t1.TestTraingle();
+            t2.ShowInfo();
+            t2.TestTraingle();
         }
     }
 }

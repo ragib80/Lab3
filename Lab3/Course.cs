@@ -22,7 +22,7 @@ namespace Lab3
         {
             Console.WriteLine("Course name is : " + courseName);
             Console.WriteLine("your id is : " + courseCode);
-            Console.WriteLine("your department is : " + courseCradit);
+            Console.WriteLine("your  cradit is : " + courseCradit);
            
         }
     }
